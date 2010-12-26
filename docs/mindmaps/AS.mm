@@ -1,0 +1,77 @@
+<map version="0.8.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1293113656591" ID="Freemind_Link_206605091" MODIFIED="1293113673214" TEXT="AS">
+<node CREATED="1293113676959" ID="_" MODIFIED="1293113680353" POSITION="right" TEXT="Features">
+<node CREATED="1293113681638" ID="Freemind_Link_906501548" MODIFIED="1293113703006" TEXT="1. Get commands">
+<node CREATED="1293113771250" ID="Freemind_Link_511660559" MODIFIED="1293116446107" TEXT="Start new run">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1293113879583" ID="Freemind_Link_1756935439" MODIFIED="1293113915475" TEXT="Data">
+<node CREATED="1293113918739" ID="Freemind_Link_583074390" MODIFIED="1293113929166" TEXT="1. Setting.inc"/>
+<node CREATED="1293113932177" ID="Freemind_Link_1466603987" MODIFIED="1293113937951" TEXT="2. Automation plan name"/>
+</node>
+</node>
+<node CREATED="1293113777249" ID="Freemind_Link_300969266" MODIFIED="1293113791131" TEXT="Restore/prepare image">
+<node CREATED="1293113791795" ID="Freemind_Link_576619936" MODIFIED="1293113800867" TEXT="1. Deploy">
+<node CREATED="1293115484717" ID="Freemind_Link_1245036416" MODIFIED="1293115631471" TEXT="Acronis commands?">
+<icon BUILTIN="help"/>
+</node>
+</node>
+<node CREATED="1293113818057" ID="Freemind_Link_1687957299" MODIFIED="1293113827294" TEXT="2. Run config bat">
+<node CREATED="1293115519873" ID="Freemind_Link_851660750" MODIFIED="1293115522154" TEXT="bat1"/>
+<node CREATED="1293115523328" ID="Freemind_Link_1820394391" MODIFIED="1293115526184" TEXT="vistabat"/>
+</node>
+<node CREATED="1293113804080" ID="Freemind_Link_324097617" MODIFIED="1293113816761" TEXT="3. Install Silk">
+<node CREATED="1293115536982" ID="Freemind_Link_746754227" MODIFIED="1293115540821" TEXT="verify silk"/>
+<node CREATED="1293115541883" ID="Freemind_Link_1619694996" MODIFIED="1293115544125" TEXT="reboot"/>
+</node>
+</node>
+<node CREATED="1293113846924" ID="Freemind_Link_875947663" MODIFIED="1293113856342" TEXT="Get current test state"/>
+</node>
+<node CREATED="1293113706489" ID="Freemind_Link_4122487" MODIFIED="1293113711382" TEXT="2. Execute"/>
+<node CREATED="1293113712811" ID="Freemind_Link_130033290" MODIFIED="1293113737430" TEXT="3. Check execution"/>
+<node CREATED="1293113739133" ID="Freemind_Link_471923503" MODIFIED="1293113745054" TEXT="4. Send report"/>
+<node CREATED="1293113748604" ID="Freemind_Link_752336755" MODIFIED="1293113755229" TEXT="Start new run"/>
+</node>
+<node CREATED="1293113871167" ID="Freemind_Link_531790948" MODIFIED="1293114027141" POSITION="left" TEXT="Modules">
+<node CREATED="1293114027861" ID="Freemind_Link_428844881" MODIFIED="1293114029344" TEXT="Setting.inc generator">
+<node CREATED="1293114768607" ID="Freemind_Link_21293701" MODIFIED="1293114799798" TEXT="Local generator on user machine"/>
+</node>
+<node CREATED="1293114030688" ID="Freemind_Link_426883209" MODIFIED="1293114055416" TEXT="Email Parser"/>
+<node CREATED="1293114874591" ID="Freemind_Link_270920216" MODIFIED="1293114890644" TEXT="Task scheduler">
+<node CREATED="1293114892155" ID="Freemind_Link_741908780" MODIFIED="1293114908051" TEXT="Send manually created setting.inc"/>
+<node CREATED="1293114909953" ID="Freemind_Link_762819798" MODIFIED="1293114931624" TEXT="Send setting.inc created by tool"/>
+<node CREATED="1293114945999" FOLDED="true" ID="Freemind_Link_109838937" MODIFIED="1293115078570" TEXT="1. Automation WS side">
+<arrowlink DESTINATION="Freemind_Link_511660559" ENDARROW="Default" ENDINCLINATION="1224;449;" ID="Freemind_Arrow_Link_648142959" STARTARROW="None" STARTINCLINATION="584;204;"/>
+<node CREATED="1293115024058" ID="Freemind_Link_859101527" MODIFIED="1293115035364" TEXT="Receive email and run task"/>
+</node>
+<node CREATED="1293114967830" FOLDED="true" ID="Freemind_Link_1259554532" MODIFIED="1293114988576" TEXT="2. Scheduler - man side ;)">
+<node CREATED="1293115005124" ID="Freemind_Link_1763575290" MODIFIED="1293115012564" TEXT="Sends email with task"/>
+</node>
+</node>
+<node CREATED="1293115316468" ID="Freemind_Link_213842600" MODIFIED="1293115322662" TEXT="Task Agent">
+<node CREATED="1293115342172" ID="Freemind_Link_170284000" MODIFIED="1293115360324" TEXT="Service; Waits for new commands "/>
+<node CREATED="1293116190306" ID="Freemind_Link_1496411841" MODIFIED="1293116198015" TEXT="1. In tray"/>
+<node CREATED="1293116199670" ID="Freemind_Link_264575493" MODIFIED="1293116205644" TEXT="2. Waits for new tasks"/>
+<node CREATED="1293116225660" ID="Freemind_Link_189330403" MODIFIED="1293116234781" TEXT="Identifies machine"/>
+<node CREATED="1293116236210" ID="Freemind_Link_1507518190" MODIFIED="1293116256839" TEXT="Check mail for tasks"/>
+</node>
+</node>
+<node CREATED="1293114308194" ID="Freemind_Link_6360608" MODIFIED="1293114310713" POSITION="right" TEXT="Samples">
+<node CREATED="1293114311434" ID="Freemind_Link_1395795943" MODIFIED="1293114312871" TEXT="20-DPmlW-1;DEU;Professional;MainLine;350.xxx;Weekly;XP;QA005;208;planed;12/22;DK"/>
+</node>
+<node CREATED="1293114458077" ID="Freemind_Link_1141824432" MODIFIED="1293114462586" POSITION="left" TEXT="Requirements">
+<node CREATED="1293114463278" ID="Freemind_Link_357649431" MODIFIED="1293114482776" TEXT="Setting.inc should be human readable and anderstandable (VL)"/>
+</node>
+<node CREATED="1293115097078" ID="Freemind_Link_210958283" MODIFIED="1293115100491" POSITION="right" TEXT="DATA">
+<node CREATED="1293115101974" ID="Freemind_Link_870771360" MODIFIED="1293115134759" TEXT="List of machines and MAC adresses to identify the machine"/>
+</node>
+<node CREATED="1293115238569" ID="Freemind_Link_1792736989" MODIFIED="1293115248741" POSITION="left" TEXT="Task email format">
+<node CREATED="1293115249970" ID="Freemind_Link_239554144" MODIFIED="1293115261294" TEXT="[Machine Name] in subject"/>
+</node>
+<node CREATED="1293115843827" ID="Freemind_Link_338418759" MODIFIED="1293115848933" POSITION="right" TEXT="Exceptions">
+<node CREATED="1293115849625" ID="Freemind_Link_618435109" MODIFIED="1293115864758" TEXT="Task scheduling via network"/>
+<node CREATED="1293115933544" ID="Freemind_Link_1536260373" MODIFIED="1293115944230" TEXT="Text files on network"/>
+<node CREATED="1293115975574" ID="Freemind_Link_595405713" MODIFIED="1293116055653" TEXT="Folder Machine name + Mac adress in file name"/>
+</node>
+</node>
+</map>

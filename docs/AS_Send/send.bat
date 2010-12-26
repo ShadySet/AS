@@ -1,0 +1,2 @@
+blat.exe - -server smtp.******.com -to service.autoset@gmail.com -f service.autoset@gmail.com -subject "test message" -attach setting.inc -body "config service message"
+rem -lgn service.autoset@gmail.com -pwd *******
