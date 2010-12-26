@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AS.TaskAgent", "AS.TaskAgent\AS.TaskAgent.csproj", "{4D0BA2FF-86C7-45A5-8DA1-E49E00BB64AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AS.Lib", "AS.Lib\AS.Lib.csproj", "{D0291EC6-FFA4-49C7-93CE-68A6F1D19CF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{4D0BA2FF-86C7-45A5-8DA1-E49E00BB64AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D0BA2FF-86C7-45A5-8DA1-E49E00BB64AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D0BA2FF-86C7-45A5-8DA1-E49E00BB64AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0291EC6-FFA4-49C7-93CE-68A6F1D19CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0291EC6-FFA4-49C7-93CE-68A6F1D19CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0291EC6-FFA4-49C7-93CE-68A6F1D19CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0291EC6-FFA4-49C7-93CE-68A6F1D19CF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
